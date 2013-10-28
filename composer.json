@@ -1,0 +1,18 @@
+{
+    "name": "venca-x/tb3formrenderer",
+    "description": "Nette addon for form render Twitter Bootstrap 3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vEnCa-X",
+            "email": "venca-x@seznam.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "nette/tester": "@dev"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
