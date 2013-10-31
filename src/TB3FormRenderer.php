@@ -64,8 +64,8 @@ class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer 
             'class' => NULL, //NULL, "form-horizontal"
         ),
         'error' => array(
-            'container' => 'ul class=error',
-            'item' => 'li',
+            'container' => NULL,
+            'item' => 'div class="alert alert-danger"',
         ),
         'group' => array(
             'container' => 'fieldset',
@@ -90,7 +90,7 @@ class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer 
             'col-offset' => 'col-lg-offset-2 col-lg-10',
             'description' => 'p class="help-block"',
             'requiredsuffix' => '',
-            'errorcontainer' => 'span class=error',
+            'errorcontainer' => 'span class="text-danger"',
             'erroritem' => '',
             'form-control' => 'form-control',
             '.required' => 'required',
