@@ -61,7 +61,8 @@ class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer 
     public $wrappers = array(
         'form' => array(
             'container' => NULL,
-            'class' => NULL, //NULL, "form-horizontal"
+            'orientation' => NULL, //NULL = vertical, "form-horizontal"
+            'class' => NULL,
         ),
         'error' => array(
             'container' => NULL,
@@ -126,6 +127,8 @@ class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer 
     public function render(Nette\Forms\Form $form, $mode = NULL) {
         if ($this->form !== $form) {
             $this->form = $form;
+            //set class orientation
+            $this->form->getElementPrototype()->addClass($this->getValue("form orientation"));            
             //set class form
             $this->form->getElementPrototype()->addClass($this->getValue("form class"));
         }
@@ -473,7 +476,7 @@ class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer 
      * @return bool
      */
     protected function isFormHorizontal() {
-        return $this->getValue("form class") == "form-horizontal";
+        return $this->getValue("form orientation") == "form-horizontal";
     }
 
 }

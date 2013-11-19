@@ -15,8 +15,8 @@ Configuration
   /*
   //horizontal form
   $renderer = $form->getRenderer();
-  $renderer->wrappers['form']['class'] = 'form-horizontal';
-  //$renderer->wrappers['form']['class'] = 'form-horizontal col-md-6 col-md-offset-3';
+  $renderer->wrappers['form']['orientation'] = 'form-horizontal';
+  //$renderer->wrappers['form']['class'] = 'col-md-6 col-md-offset-3';
   */
   
   $form->addSubmit( 'create', 'Přidat novinku' )
