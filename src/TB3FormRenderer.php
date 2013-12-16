@@ -432,7 +432,7 @@ class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer 
         }
 
         if ($control instanceof Nette\Forms\Controls\Checkbox) {
-            $el = $control->getLabel()->insert(0, $el);
+            //$el = $control->getLabel()->insert(0, $el);//reapair in NF 2.1RC3
             
             $elTemp = $el;
             $el = Html::el('div', array("class" => $this->getValue("pair containerCheckbox")));
