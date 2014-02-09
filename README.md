@@ -3,6 +3,25 @@ TB3FormRenderer
 
 Nette addon for form render Twitter Bootstrap 3
 
+Installation
+------------
+
+ 1. Add the bundle to your dependencies:
+
+        // composer.json
+
+        {
+           // ...
+           "require": {
+               // ...
+			   "venca-x/tb3formrenderer": "dev-master",
+           }
+        }
+
+ 2. Use Composer to download and install the bundle:
+
+        composer update
+
 Configuration
 -------------
 
