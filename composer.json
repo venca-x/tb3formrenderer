@@ -9,12 +9,9 @@
         }
     ],
     "require": {
-        "php": ">= 5.3.7",
-        "nette/application": ">=2.2.0",
-        "nette/latte": ">=2.2.0",
-        "nette/forms": ">=2.2.0",
-        "nette/tracy": ">=2.2.0",
-        "nette/utils": ">=2.2.0"
+		"php": ">= 5.4",
+		"nette/application": ">=2.2.0",
+		"latte/latte": ">=2.2.0",
     },
     "require-dev": {
         "nette/tester": "~1.0"
