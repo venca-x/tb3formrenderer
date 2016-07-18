@@ -1,21 +1,23 @@
 {
-    "name": "venca-x/tb3formrenderer",
-    "description": "Nette addon for form render Twitter Bootstrap 3",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "vEnCa-X",
-            "email": "venca-x@seznam.cz"
-        }
-    ],
-    "require": {
-		"php": ">= 5.4",
-		"nette/application": ">=2.2.0"
-    },
-    "require-dev": {
-        "nette/tester": "~1.0"
-    },
-    "autoload": {
-        "classmap": ["src/"]
+  "name": "venca-x/tb3formrenderer",
+  "description": "Nette addon for form render Twitter Bootstrap 3",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "vEnCa-X",
+      "email": "venca-x@seznam.cz"
     }
+  ],
+  "require": {
+    "php": ">= 5.4",
+    "nette/application": ">=2.2.0"
+  },
+  "require-dev": {
+    "nette/tester": "~1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
 }
