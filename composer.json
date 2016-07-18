@@ -14,6 +14,8 @@
     "nette/forms": "^2.4"
   },
   "require-dev": {
+    "nette/application": "~2.4",
+    "nette/bootstrap": "~2.4",
     "nette/di": "~2.4",
     "nette/tester": "~1.0",
     "latte/latte": "~2.4",
