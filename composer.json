@@ -5,15 +5,19 @@
   "authors": [
     {
       "name": "vEnCa-X",
-      "email": "venca-x@seznam.cz"
+      "email": "venca-x@seznam.cz",
+      "homepage": "http://www.venca-x.cz"
     }
   ],
   "require": {
     "php": ">= 5.4",
-    "nette/application": ">=2.2.0"
+    "nette/forms": "^2.4"
   },
   "require-dev": {
-    "nette/tester": "~1.0"
+    "nette/di": "~2.4",
+    "nette/tester": "~1.0",
+    "latte/latte": "~2.4",
+    "tracy/tracy": "^2.4"
   },
   "autoload": {
     "classmap": [
