@@ -8,7 +8,7 @@ Installation
 
 Add the bundle to your dependencies:
 
-		composer require venca-x/tb3formrenderer:dev-master
+		composer require venca-x/tb3formrenderer:~1.0.0
  
 Configuration
 -------------
