@@ -3,19 +3,9 @@ language: php
 php:
   - 5.6
   - 7.0
-  - 7.1
-  - nightly
-  - hhvm
-  - hhvm-nightly
 
 env:
   - TESTER_PHP_BIN="php-cgi"
-
-matrix:
-  allow_failures:
-    - php: nightly
-    - php: hhvm
-    - php: hhvm-nightly
 
 before_script:
   - composer self-update
