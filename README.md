@@ -1,11 +1,10 @@
 TB3FormRenderer
 ===============
-[![Build Status](https://travis-ci.org/venca-x/tb3formrenderer.svg)](https://travis-ci.org/venca-x/tb3formrenderer) 
+[![Build Status](https://travis-ci.org/venca-x/tb3formrenderer.svg)](https://travis-ci.org/venca-x/tb3formrenderer.svg?branch=master) 
 [![Latest Stable Version](https://poser.pugx.org/venca-x/tb3formrenderer/v/stable.svg)](https://packagist.org/packages/venca-x/tb3formrenderer) 
-[![Total Downloads](https://poser.pugx.org/venca-x/tb3formrenderer/downloads.svg)](https://packagist.org/packages/venca-x/tb3formrenderer) 
 [![Latest Unstable Version](https://poser.pugx.org/venca-x/tb3formrenderer/v/unstable.svg)](https://packagist.org/packages/venca-x/tb3formrenderer) 
+[![Total Downloads](https://poser.pugx.org/venca-x/tb3formrenderer/downloads.svg)](https://packagist.org/packages/venca-x/tb3formrenderer) 
 [![License](https://poser.pugx.org/venca-x/tb3formrenderer/license.svg)](https://packagist.org/packages/venca-x/tb3formrenderer)
-
 
 Nette addon for form render Twitter Bootstrap 3
 
