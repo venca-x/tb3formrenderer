@@ -121,10 +121,10 @@ class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer 
     /**
      * Provides complete form rendering.
      * @param  Nette\Forms\Form
-     * @param  string 'begin', 'errors', 'body', 'end' or empty to render all
      * @return string
      */
-    public function render(Nette\Forms\Form $form, $mode = NULL) {
+    public function render(Nette\Forms\Form $form): string {
+        $mode = NULL;//@TODO oh, shit
         if ($this->form !== $form) {
             $this->form = $form;
             //set class orientation
