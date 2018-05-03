@@ -19,7 +19,8 @@ use Nette,
  *
  * @author     David Grudl
  */
-class TB3FormRenderer extends Nette\Object implements Nette\Forms\IFormRenderer {
+class TB3FormRenderer implements Nette\Forms\IFormRenderer {
+use Nette\SmartObject;
 
     /**
      *  /--- form.container
