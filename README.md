@@ -37,3 +37,11 @@ $renderer->wrappers['form']['orientation'] = 'form-horizontal';
 $form->addSubmit( 'create', 'Přidat novinku' )
     ->setAttribute('class', 'btn btn-primary');
 ```
+
+# Versions
+
+**1.2.0** - 23.12.2023
+
+- PHP version must be at least 8.0
+- Removing dependency on Nette/Object
+
